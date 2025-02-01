@@ -1,0 +1,28 @@
+# Python environment files
+.env
+venv/
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
+
+# Data files
+*.csv
+*.tsv
+*.json
+*.pickle
+*.hdf5
+*.parquet
+data/
+
+# Colab-specific files
+.config/
+sample_data/
+
+# Output files
+*.log
+*.out
+*.err
+
+# System files
+.DS_Store
+Thumbs.db
