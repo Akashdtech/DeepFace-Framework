@@ -11,13 +11,13 @@ Requirements:
 
 Face Verification:
 
-result = DeepFace.verify(img1_path="path/to/image1.jpg", img2_path="path/to/image2.jpg")
-print(result)
+    result = DeepFace.verify(img1_path="path/to/image1.jpg", img2_path="path/to/image2.jpg")
+    print(result)
 
 Face Search:
 
-result = DeepFace.find(img_path="path/to/test.jpg", db_path="path/to/database")
-print(result)
+    result = DeepFace.find(img_path="path/to/test.jpg", db_path="path/to/database")
+    print(result)
 
 Face Analysis:
 
